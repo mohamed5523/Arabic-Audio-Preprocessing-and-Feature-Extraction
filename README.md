@@ -37,9 +37,9 @@ ArabicAudioProcessing/
 │   ├── diarized_audio/      # Speaker-separated audio segments
 │   └── features/            # Extracted audio features (per speaker)
 └── .gitignore               # Files/folders to be ignored by Git
-
 ---
 
+```
 ## 🔧 Features
 
 - ✅ **Denoising**: Traditional filters and advanced tools (e.g., NVIDIA Nemo , noisereduce , etc..)
@@ -51,11 +51,8 @@ ArabicAudioProcessing/
   - (Optional) Spectral Centroid, Pitch
   
 
-
----
-
 ## 🛠️ Installation
-
+```
 git clone https://github.com/YOUR_USERNAME/ArabicAudioProcessing.git
 cd ArabicAudioProcessing
 pip install -r requirements.txt
