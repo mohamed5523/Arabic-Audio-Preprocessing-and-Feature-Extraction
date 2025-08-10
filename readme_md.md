@@ -1,4 +1,4 @@
-# Audio Processing Pipeline
+# Arabic-Audio-Preprocessing-and-Feature-Extraction
 
 A comprehensive audio processing pipeline that performs speaker diarization, voice activity detection, and feature extraction with vector storage in Milvus for similarity search.
 
@@ -47,14 +47,14 @@ audio_processing_pipeline/
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd audio_processing_pipeline
+git clone https://github.com/mohamed5523/Arabic-Audio-Preprocessing-and-Feature-Extraction
+cd Arabic-Audio-Preprocessing-and-Feature-Extraction
 ```
 
 2. Create a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate   # On Linux:source venv/bin/activate
 ```
 
 3. Install dependencies:
@@ -201,15 +201,5 @@ Models are automatically downloaded on first use:
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License.
 
-## Contributing
-
-[Add contribution guidelines here]
-
-## Citation
-
-If you use this pipeline in your research, please cite the relevant papers:
-- NVIDIA NeMo
-- Pyannote.audio
-- Milvus
