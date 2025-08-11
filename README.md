@@ -16,31 +16,47 @@ A comprehensive audio processing pipeline that performs speaker diarization, voi
 ## Project Structure
 
 ```
-audio_processing_pipeline/
-├── config/
+Arabic-Audio-Preprocessing-and-Feature-Extraction/
+├── 📁 config/
 │   ├── __init__.py
-│   └── config.py              # Configuration settings
-├── models/
+│   └── config.py                    # Configuration settings and parameters
+│
+├── 📁 models/
 │   ├── __init__.py
-│   └── models.py              # Model initialization and management
-├── processing/
+│   └── models.py                    # Model initialization and management
+│
+├── 📁 processing/
 │   ├── __init__.py
-│   ├── preprocessing.py       # Audio preprocessing
-│   ├── vad.py                # Voice Activity Detection
-│   ├── diarization.py        # Speaker Diarization
-│   └── feature_extraction.py # Feature extraction functions
-├── database/
+│   ├── preprocessing.py             # Audio preprocessing (denoising)
+│   ├── vad.py                      # Voice Activity Detection
+│   ├── diarization.py              # Speaker Diarization
+│   └── feature_extraction.py       # Feature extraction (embeddings, log-mel)
+│
+├── 📁 database/
 │   ├── __init__.py
-│   └── milvus_handler.py     # Milvus database operations
-├── utils/
+│   └── milvus_handler.py           # Milvus database operations
+│
+├── 📁 utils/
 │   ├── __init__.py
-│   └── utils.py              # Utility functions
-├── core/
+│   └── utils.py                    # Utility functions
+│
+├── 📁 core/
 │   ├── __init__.py
-│   └── audio_processor.py    # Main processor orchestrator
-├── main.py                   # Entry point
-├── requirements.txt          # Dependencies
-└── README.md                # This file
+│   └── audio_processor.py          # Main processor orchestrator
+│
+├── 📁 examples/
+│   └── example_usage.py            # Usage examples
+│
+├── 📁 tests/
+│   └── test_audio_processor.py     # Unit tests
+│
+├── 📄 main.py                      # Entry point
+├── 📄 requirements.txt             # Python dependencies
+├── 📄 setup.py                     # Package setup
+├── 📄 docker-compose.yml           # Docker Compose for Milvus
+├── 📄 Makefile                     # Build and deployment commands
+├── 📄 .gitignore                   # Git ignore rules
+└── 📄 README.md                    # Documentation
 ```
 
 ## Installation
